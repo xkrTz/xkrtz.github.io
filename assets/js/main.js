@@ -1,4 +1,4 @@
-// Smooth scroll effect
+// Efeito de scroll suave
 document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
 
-    // Fading animation on page load
+    // Animação de Fading para o loading
     const body = document.querySelector('body');
     body.style.display = 'block';
     body.animate([

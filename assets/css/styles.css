@@ -1,24 +1,19 @@
 body {
-  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #333;
 }
 
-header {
-  background-color: #343a40;
-  color: #ffc107;
-}
-
-section.bg-light {
-  background-color: #f8f9fa;
-}
-
-footer {
-  background-color: #343a40;
-  color: #ffc107;
+.lead {
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary {
   background-color: #ffc107;
-  border-color: #ffc107;
+  border-color: #333;
+  color: #333;
 }
 
 .btn-primary:hover {
@@ -27,9 +22,144 @@ footer {
 }
 
 .card {
-  border: 1px solid #dee2e6;
+  background-color: #333;
 }
 
 .card-body {
   color: #343a40;
+}
+
+.col-md-4 .card {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0.5);
+}
+
+.col-lg-6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.col-lg-6 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.col-lg-6 p {
+  font-size: 18px;
+  color: #777777;
+}
+
+.col-lg-6 p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .col-lg-6 {
+    text-align: center;
+  }
+
+  .col-lg-6 img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  color: #777777;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffd700;
+}
+
+#contato {
+  background-color: #333;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+}
+
+#contato h2 {
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#contato form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffcc00;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0.3);
+}
+
+#contato .form-group label {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+#contato .form-group input,
+#contato .form-group textarea {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #555555;
+}
+
+#contato .form-group input:focus,
+#contato .form-group textarea:focus {
+  border-color: #ffcc00;
+  box-shadow: none;
+}
+
+#contato .form-group .btn-primary {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #333333;
+}
+
+#contato .form-group .btn-primary:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #333333;
+}
+
+.profile-links {
+  position: absolute;
+  padding: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.profile-links img {
+  transition: transform 0.3s ease;
+}
+
+.profile-links img:hover {
+  transform: scale(1.1);
 }

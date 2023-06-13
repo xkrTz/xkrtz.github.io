@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-  <script src="assets/js/main.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="icon" href="/assets/img/logo.png">
+  <script src="assets/js/main.js"></script>
 </head>
 
 <body>
 
-  <header class="bg-dark text-white py-5">
+  <header class="text-white py-5">
     <div class="container">
       <h1 class="display-4">Olá, me chamo Paulo!</h1>
       <p class="lead">Seja bem-vindo ao meu portfolio!</p>
@@ -24,19 +24,30 @@
       <div class="row">
         <div class="col-lg-6">
           <h2 class="mb-4">Sobre mim</h2>
-          <p>Olá, meu nome é Paulo e sou um entusiasta da programação. Com uma paixão pela resolução de problemas e pela criação de soluções inovadoras, estou constantemente aprimorando minhas habilidades técnicas.</p>
+          <p>Sou um entusiasta da programação. Com uma paixão pela resolução de problemas e pela criação de soluções inovadoras, estou constantemente aprimorando minhas habilidades técnicas.</p>
           <p>Desde meu primeiro contato com a programação aos 13 anos, minha jornada tem sido repleta de aprendizados e desafios. Ao longo dos anos, explorei várias tecnologias e desenvolvi projetos interessantes.</p>
-          <p>Minha área de especialização é o desenvolvimento web, onde tenho experiência em HTML, CSS, JavaScript e frameworks como Bootstrap. Além disso, tenho conhecimentos em linguagens de programação como Python e Java, e estou sempre aprendendo novas tecnologias.</p>
+          <p>Minha área de especialização é o desenvolvimento web, onde tenho experiência em HTML, CSS, JavaScript e frameworks como Bootstrap. Além disso, tenho conhecimentos em linguagens de programação como Python e C++, e sempre aprendendo novas tecnologias.</p>
           <p>Estou animado para fazer parte de projetos desafiadores e colaborar com equipes talentosas. Se você está procurando um desenvolvedor comprometido e apaixonado, entre em contato para discutirmos como posso contribuir para o seu próximo projeto.</p>
         </div>
-        <div class="col-lg-6">
-          <img src="/assets/img/logo.png" alt="Profile Picture" class="img-fluid rounded-circle">
+        <div class="col-lg-6 position-relative">
+          <img src="/assets/img/me.png" alt="Profile Picture" class="img-fluid rounded-circle">
+          <div class="profile-links">
+            <a href="https://github.com/kunrath1" target="_blank">
+              <img src="/assets/img/github.png" alt="Github Link" class="img-fluid">
+            </a>
+            <a href="https://www.instagram.com/pkunrath/" target="_blank">
+              <img src="/assets/img/instagram.png" alt="Instagram Link" class="img-fluid">
+            </a>
+            <a href="https://twitter.com/p_kunrath" target="_blank">
+              <img src="/assets/img/twitter.png" alt="Twitter Link" class="img-fluid">
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-light py-5">
+  <section class="py-5">
     <div class="container">
       <h2 class="mb-4">Projetos</h2>
       <div class="row">
@@ -64,10 +75,42 @@
     </div>
   </section>
 
-  <footer class="bg-dark text-white py-3">
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contato</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>Se você tem algum projeto interessante ou gostaria de discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato comigo.</p>
+          <p>Preencha o formulário abaixo ou envie um e-mail para <a href="mailto:paulo.krt@hotmail.com">paulo.krt@hotmail.com</a>. Responderei o mais breve possível.</p>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="text-white py-3">
     <div class="container text-center">
       <p>&copy; 2023 Paulo Kunrath. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
