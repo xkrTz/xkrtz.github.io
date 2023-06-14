@@ -169,8 +169,11 @@ a:hover {
   transform: scale(1.1);
 }
 
-.nav{
-  border: 2px solid #ffcc00;
-  border-radius: 5px;
+.nav-link {
+  color: #ffcc00;
+  text-decoration: none;
+}
 
+.nav-link:hover {
+  text-decoration: underline;
 }
