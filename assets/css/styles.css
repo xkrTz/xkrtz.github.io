@@ -148,18 +148,23 @@ a:hover {
 }
 
 .profile-links {
-  position: absolute;
-  padding: 15px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-.profile-links img {
-  transition: transform 0.3s ease;
+.profile-links a {
+  margin: 0 10px;
 }
 
-.profile-links img:hover {
+.profile-link img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-link:hover img {
   transform: scale(1.1);
 }
