@@ -169,11 +169,61 @@ a:hover {
   transform: scale(1.1);
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
 .nav-link {
-  color: #ffcc00;
   text-decoration: none;
+  color: #e0a800;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+#languages {
+  padding: 50px 0;
+}
+
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-item {
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgb(0, 0, 0.3); /* Add the shadow effect */
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.3s ease-in-out;
+}
+
+.language-item:hover {
+  box-shadow: 0 5px 10px rgb(251, 255, 0); /* Add the shadow effect */
+  transform: scale(1.1);
+
+}
+
+.language-name {
+  margin-top: 10px;
+  font-size: 15px;
 }

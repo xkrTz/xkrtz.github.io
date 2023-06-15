@@ -6,31 +6,51 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="icon" href="/assets/img/logo.jpg">
+  <link rel="icon" href="/assets/img/pk.png">
   <script src="assets/js/main.js"></script>
 </head>
 
 <body>
 
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img src="assets/img/pk.png" alt="pk logo" class="pk">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <header class="text-white py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <h1 class="display-4">Olá, me chamo Paulo!</h1>
+          <h1 class="display-4" id="home">Olá, me chamo Paulo!</h1>
           <p class="lead">Seja bem-vindo ao meu portfolio!</p>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-end">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projetos">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -89,6 +109,34 @@
               <a href="https://github.com/kunrath1/Movie-Night" target="_blank" class="btn btn-primary">Ver detalhes</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="languages" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Experiencia</h2>
+      <div class="language-list">
+        <div class="language-item">
+          <img src="/assets/img/html5.png" alt="HTML" class="language-icon">
+          <h3 class="language-name">HTML</h3>
+        </div>
+        <div class="language-item">
+          <img src="/assets/img/css.png" alt="CSS" class="language-icon">
+          <h3 class="language-name">CSS</h3>
+        </div>
+        <div class="language-item">
+          <img src="/assets/img/js.png" alt="JavaScript" class="language-icon">
+          <h3 class="language-name">JavaScript</h3>
+        </div>
+        <div class="language-item">
+          <img src="/assets/img/python.png" alt="JavaScript" class="language-icon">
+          <h3 class="language-name">Python</h3>
+        </div>
+        <div class="language-item">
+          <img src="/assets/img/cpp.png" alt="JavaScript" class="language-icon">
+          <h3 class="language-name">C++</h3>
         </div>
       </div>
     </div>
