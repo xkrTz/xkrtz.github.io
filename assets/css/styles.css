@@ -227,3 +227,22 @@ a:hover {
   margin-top: 10px;
   font-size: 15px;
 }
+
+.profile-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.profile-buttons .btn {
+  margin-right: 1rem;
+}
+
+.modal-content{
+  background-color: #333;
+  color: #777777;
+}
+
+.btnpk{
+  background-color: aliceblue;
+}
