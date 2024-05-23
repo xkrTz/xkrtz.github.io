@@ -1,19 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  background-color: #333;
+  background-image: linear-gradient(to bottom, #333, #424242);
 }
+
+
 
 .lead {
   font-weight: bold;
   color: #ffcc00;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  outline: 2px 2px 4px rgb(129, 128, 128);
 }
 
 .btn-primary {
   background-color: #ffc107;
-  border-color: #333;
-  color: #333;
+  border-color: linear-gradient(to bottom, #333, #424242);
+  background-image: linear-gradient(to bottom, #333, #424242);
+  border-color: #e0a800;
 }
 
 .btn-primary:hover {
@@ -22,11 +26,12 @@ body {
 }
 
 .card {
-  background-color: #333;
+  background-image: linear-gradient(to bottom, #333, #424242);
+  border-color:rgb(129, 128, 128);
 }
 
 .card-body {
-  color: #343a40;
+  color: linear-gradient(to bottom, #333, #424242);
 }
 
 .col-md-4 .card {
@@ -163,6 +168,8 @@ a:hover {
   object-fit: cover;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0.5);
+
 }
 
 .profile-link:hover img {
@@ -207,7 +214,7 @@ a:hover {
 }
 
 .language-item {
-  background-color: #333333;
+  background-color: linear-gradient(to bottom, #333, #424242);
   padding: 10px;
   border-radius: 10px;
   margin: 20px;
